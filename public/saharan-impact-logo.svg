@@ -1,0 +1,10 @@
+<svg width="232" height="64" viewBox="0 0 232 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Saharan Impact</title>
+  <desc id="desc">Icône de trois bâtiments et nom Saharan Impact en moutarde.</desc>
+  <rect x="2" y="2" width="60" height="60" fill="#D4AA00" stroke="#57544D" stroke-width="4"/>
+  <rect x="13" y="33" width="10" height="21" fill="#F7F6F1" stroke="#11110F" stroke-width="2"/>
+  <rect x="27" y="18" width="10" height="36" fill="#F7F6F1" stroke="#11110F" stroke-width="2"/>
+  <rect x="41" y="33" width="10" height="21" fill="#F7F6F1" stroke="#11110F" stroke-width="2"/>
+  <text x="76" y="29" fill="#D4AA00" font-family="Arial Narrow, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="1.5">SAHARAN</text>
+  <text x="76" y="52" fill="#D4AA00" font-family="Arial Narrow, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="1.5">IMPACT</text>
+</svg>

@@ -1,0 +1,37 @@
+## Le problème : une chaîne de ressaisie
+
+Dans de nombreux programmes, les équipes terrain envoient des fichiers par email ou messagerie. Une personne les renomme, une autre copie les chiffres dans un tableau central, puis plusieurs versions circulent avant validation. Le rapport final arrive tard et il devient difficile de retracer l'origine d'une correction.
+
+L'automatisation ne doit pas commencer par remplacer tous les outils. Elle doit d'abord supprimer une étape répétitive et mesurable.
+
+## Un premier flux réaliste avec n8n
+
+Un scénario simple peut suivre cinq étapes :
+
+1. réception d'un formulaire ou d'un fichier dans un canal défini ;
+2. vérification des champs obligatoires ;
+3. classement du document dans un dossier normalisé ;
+4. mise à jour d'un registre central ;
+5. notification de l'équipe responsable en cas d'anomalie.
+
+n8n joue ici le rôle de pont entre des outils déjà utilisés. L'équipe garde son tableur ou sa base principale, tandis que les contrôles et les notifications deviennent automatiques.
+
+## Commencer par cartographier les exceptions
+
+Un flux nominal est rarement le vrai défi. Les retards viennent des fichiers incomplets, des doublons, des périodes mal indiquées ou des validations absentes. Avant d'automatiser, listez ces exceptions et définissez qui doit agir pour chacune d'elles.
+
+Cette cartographie évite de transformer une erreur silencieuse en erreur automatique. Elle permet aussi de construire un journal d'exécution exploitable lors d'un audit.
+
+## Protéger les données et l'autonomie interne
+
+Le choix d'hébergement, la gestion des accès et la durée de conservation doivent être décidés avec la DSI. Les identifiants restent dans un gestionnaire de secrets, jamais dans les workflows exportés. Les données sensibles ne doivent apparaître ni dans les URL ni dans les journaux techniques.
+
+Enfin, au moins deux personnes de l'organisation doivent comprendre le flux, savoir le suspendre et interpréter ses alertes. L'automatisation devient une capacité interne, pas une dépendance supplémentaire.
+
+## Mesurer avant d'étendre
+
+Suivez quelques indicateurs simples : délai moyen de consolidation, nombre de dossiers incomplets et temps consacré aux corrections. Si le premier flux améliore ces mesures, étendez-le à une autre étape. Sinon, corrigez le processus avant d'ajouter des connexions.
+
+Saharan Impact accompagne ce travail par phases courtes : diagnostic du flux, prototype, test avec les équipes puis transfert de compétence. [Découvrir l'accompagnement Institutions](/institutions).
+
+> Vous avez un processus de reporting trop manuel ? [Lancez le Diagnostic Éclair](/#diagnostic).
